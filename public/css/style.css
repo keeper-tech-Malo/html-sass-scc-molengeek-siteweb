@@ -94,6 +94,9 @@ header nav .navigation ul li a:hover::before {
 section {
   margin: 50px 15%;
 }
+section:last-of-type h2 {
+  font-size: 35px;
+}
 section:first-of-type h1 {
   font-size: 50px;
   text-align: center;
@@ -113,6 +116,57 @@ section:first-of-type h1::before {
 }
 section:first-of-type ul li {
   margin: 8px 0;
+}
+section li::marker {
+  color: purple;
+}
+
+footer {
+  background-color: black;
+}
+footer .reseaux {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+footer .reseaux ul {
+  display: flex;
+}
+footer .reseaux ul li {
+  list-style: none;
+  margin: 0 18px;
+  padding: 50px 0;
+}
+footer .reseaux ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .reseaux ul li a i {
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 10px;
+  margin-right: 10px;
+}
+footer .copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .copy img {
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+footer .copy p {
+  padding: 30px;
+  font-size: 10px;
+  color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
